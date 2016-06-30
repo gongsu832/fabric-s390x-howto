@@ -48,7 +48,7 @@ Once again, the example below uses GOPATH=/opt/openchain and you are free to use
    # apt-get install libbz2-dev libsnappy-dev zlib1g-dev
    # mkdir -p /opt/openchain/src/github.com/hyperledger
    # cd /opt/openchain/src/github.com/hyperledger
-   # git clone https://github.com/hyperledger/fabric.git
+   # git clone https://github.com/s390xlinux/fabric.git
    # cd fabric
    # docker tag $(docker images|grep s390xlinux/debian-base|awk '{print $3}') hyperledger/fabric-baseimage:$(uname -m)-$(cat ./images/base/release)
    # export GOPATH=/opt/openchain
